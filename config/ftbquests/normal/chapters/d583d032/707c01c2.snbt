@@ -1,0 +1,15 @@
+{
+	x: 8.0d,
+	y: 4.0d,
+	dependencies: [
+		"41b02cbc"
+	],
+	tasks: [{
+		uid: "2a92b89e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:kiln_clay"
+		}],
+		count: 32L
+	}]
+}

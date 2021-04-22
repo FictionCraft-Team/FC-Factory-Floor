@@ -1,0 +1,18 @@
+{
+	title: "Choppy Stuff",
+	x: 5.0d,
+	y: 2.0d,
+	dependencies: [
+		"187b036a"
+	],
+	tasks: [{
+		uid: "86148d69",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:axe_head"
+			}
+		}]
+	}]
+}

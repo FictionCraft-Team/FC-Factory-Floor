@@ -1,0 +1,9 @@
+item.contenttweaker.kiln_clay.name=Kiln Clay
+item.contenttweaker.kiln_brick.name=Kiln Brick
+
+item.contenttweaker.resistor.name=Resistor
+item.contenttweaker.light_capacitor.name=Light Capacitor
+item.contenttweaker.heavy_capacitor.name=Heavy Capacitor
+item.contenttweaker.transistor.name=Transistor
+
+item.contenttweaker.primitive_circuit.name=Primitive Circuit

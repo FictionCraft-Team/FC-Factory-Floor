@@ -1,0 +1,15 @@
+{
+	x: 2.0d,
+	y: 10.0d,
+	dependencies: [
+		"466e3233",
+		"a84cd87d"
+	],
+	tasks: [{
+		uid: "0b04e289",
+		type: "item",
+		items: [{
+			item: "contenttweaker:resistor"
+		}]
+	}]
+}

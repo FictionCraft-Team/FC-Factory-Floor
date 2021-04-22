@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: 6.0d,
+	text: [
+		"This is all you need to make a very minimal smeltery. It will do for now, but you can expand it later. You can also expand it now. I am not stopping you.",
+		"Quick heads up, you will need 39 of each ingredient to make the right amount of grout. There. I did the calculations for you."
+	],
+	dependencies: [
+		"e67cd107"
+	],
+	tasks: [{
+		uid: "20195556",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}],
+		count: 78L
+	}]
+}

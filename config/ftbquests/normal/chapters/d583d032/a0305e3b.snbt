@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	dependencies: [
+		"4e05cd7a"
+	],
+	tasks: [{
+		uid: "d0ebbc0d",
+		type: "item",
+		items: [{
+			item: "ceramics:unfired_clay"
+		}]
+	}]
+}

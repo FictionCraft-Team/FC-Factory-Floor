@@ -1,0 +1,12 @@
+{
+	x: 8.0d,
+	y: 14.0d,
+	tasks: [{
+		uid: "c43185ca",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:connector 1 1"
+		}],
+		count: 8L
+	}]
+}

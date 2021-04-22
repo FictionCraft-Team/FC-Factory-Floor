@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 10.0d,
+	dependencies: [
+		"827baf37",
+		"b12c0546"
+	],
+	tasks: [{
+		uid: "f1e9a429",
+		type: "item",
+		items: [{
+			item: "artisanworktables:artisans_solderer_bronze"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

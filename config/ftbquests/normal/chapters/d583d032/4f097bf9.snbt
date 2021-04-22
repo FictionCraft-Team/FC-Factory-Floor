@@ -1,0 +1,28 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	text: [
+		"Thank you for playing FC: Factory Floor! I have spent a lot of time on this modpack, so I hope you enjoy playing it!",
+		"This is also probably a good time to mention that I am very passive agressive, and have the most confuing sense of humor. So I hope you are looking forward to that as well."
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "3eff4b91",
+		type: "checkmark",
+		title: "A New Beginning",
+		icon: "thermalfoundation:material 1 1028"
+	}],
+	rewards: [{
+		uid: "9f9f0a59",
+		type: "item",
+		item: "harvestcraft:strawberrysmoothieitem",
+		count: 8
+	},
+	{
+		uid: "eab1c8ab",
+		type: "item",
+		item: "minecraft:torch",
+		count: 16
+	}]
+}

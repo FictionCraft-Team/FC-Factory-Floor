@@ -1,0 +1,16 @@
+{
+	title: "Coke-a-cola",
+	x: 6.0d,
+	y: 8.0d,
+	dependencies: [
+		"81a3c1f8"
+	],
+	tasks: [{
+		uid: "fec350d3",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration"
+		}],
+		count: 27L
+	}]
+}

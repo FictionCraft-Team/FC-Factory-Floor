@@ -1,0 +1,28 @@
+{
+	title: "Stabby Stuff",
+	x: 7.0d,
+	y: 2.0d,
+	dependencies: [
+		"187b036a"
+	],
+	tasks: [{
+		uid: "a6ea463a",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:wide_guard"
+			}
+		}]
+	},
+	{
+		uid: "59ca4302",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:sword_blade"
+			}
+		}]
+	}]
+}

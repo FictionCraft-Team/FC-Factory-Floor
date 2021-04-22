@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 6.0d,
+	dependencies: [
+		"7b67456b"
+	],
+	tasks: [{
+		uid: "3145b432",
+		type: "item",
+		items: [{
+			item: "ceramics:clay_bucket"
+		}]
+	}],
+	rewards: [{
+		uid: "990d9e45",
+		type: "item",
+		item: "tconstruct:cast_custom"
+	}]
+}

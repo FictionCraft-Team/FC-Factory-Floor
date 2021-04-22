@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 6.0d,
+	dependencies: [
+		"a0305e3b"
+	],
+	tasks: [{
+		uid: "1e0ad3fb",
+		type: "item",
+		items: [{
+			id: "tconstruct:rack",
+			tag: {
+				textureBlock: {
+					id: "minecraft:wooden_slab",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}],
+		count: 4L
+	}]
+}

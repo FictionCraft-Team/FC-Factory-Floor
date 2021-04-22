@@ -1,0 +1,18 @@
+{
+	title: "Miney Stuff",
+	x: 3.0d,
+	y: 2.0d,
+	dependencies: [
+		"187b036a"
+	],
+	tasks: [{
+		uid: "459b6571",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	}]
+}

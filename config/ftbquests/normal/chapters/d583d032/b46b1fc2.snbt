@@ -1,0 +1,28 @@
+{
+	title: "Just Kind Of Stuff In General",
+	x: 1.0d,
+	y: 2.0d,
+	dependencies: [
+		"187b036a"
+	],
+	tasks: [{
+		uid: "1953beae",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:binding"
+			}
+		}]
+	},
+	{
+		uid: "ee584394",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:tool_rod"
+			}
+		}]
+	}]
+}

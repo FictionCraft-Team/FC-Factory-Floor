@@ -1,0 +1,15 @@
+{
+	x: 6.0d,
+	y: 4.0d,
+	dependencies: [
+		"1ef1e951"
+	],
+	tasks: [{
+		uid: "9ebd5e41",
+		type: "item",
+		items: [{
+			item: "advancedmortars:mortar"
+		}],
+		ignore_nbt: 1b
+	}]
+}

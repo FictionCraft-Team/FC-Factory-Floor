@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 12.0d,
+	dependencies: [
+		"a84cd87d"
+	],
+	tasks: [{
+		uid: "b6d0e836",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wirecoil"
+		}]
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Check The Crash Log!",
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"You will notice that you only get 2 planks per log when crafting, because, y'know, B A L A N C E."
+	],
+	dependencies: [
+		"4f097bf9"
+	],
+	tasks: [{
+		uid: "dcba255e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}],
+		count: 8L,
+		consume_items: false
+	}]
+}

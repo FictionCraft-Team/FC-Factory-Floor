@@ -1,0 +1,13 @@
+{
+  "materialMappings": {
+    "titanium_molten": 8,
+    "titanium_gear": 4,
+    "titanium_plate": 3,
+    "titanium_ingot": 0,
+    "titanium_nugget": 1,
+    "titanium_rod": 7,
+    "titanium_block": 5,
+    "titanium_dust": 2,
+    "titanium_ore": 6
+  }
+}

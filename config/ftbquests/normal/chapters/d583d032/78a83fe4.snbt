@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 12.0d,
+	text: [
+		"This thing is just a bunch of resistors soldered to a sheet of metal. Not much a circuit is it huh?"
+	],
+	dependencies: [
+		"84f3f97f"
+	],
+	tasks: [{
+		uid: "4a2d265f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:primitive_circuit"
+		}]
+	}]
+}

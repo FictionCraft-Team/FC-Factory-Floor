@@ -1,0 +1,22 @@
+{
+	title: "Industrialism",
+	x: 4.0d,
+	y: 8.0d,
+	dependencies: [
+		"6ba54f96"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "4c62664b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:tool"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b72a77dd",
+		type: "item",
+		item: "immersiveengineering:tool 1 3"
+	}]
+}

@@ -1,0 +1,73 @@
+{
+	title: "Tinkers' Time",
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"In this modpack, most of the tools avaliable are just tinkers' tools. You will craft the stencils that you need, and you can figure it out from there. What you make your tools out of isn't my problem."
+	],
+	dependencies: [
+		"201fe292"
+	],
+	tasks: [{
+		uid: "0d65557f",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables"
+		}]
+	},
+	{
+		uid: "88a34d95",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "2cc7e17f",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "7b2fb989",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}]
+	},
+	{
+		uid: "a9cba559",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "bcb53c09",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "5a4bf9dc",
+		type: "item",
+		item: "tconstruct:book"
+	}]
+}

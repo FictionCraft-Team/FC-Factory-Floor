@@ -1,0 +1,223 @@
+import crafttweaker.item.IItemStack as IItemStack;
+import mods.jei.JEI.removeAndHide;
+	
+val removed = [
+
+    # --PICKAXES--
+    <appliedenergistics2:certus_quartz_pickaxe>,
+    <appliedenergistics2:nether_quartz_pickaxe>,
+    <immersiveengineering:pickaxe_steel>,
+    <mekanismtools:glowstonepickaxe>,
+    <mekanismtools:bronzepickaxe>,
+    <mekanismtools:osmiumpickaxe>,
+    <mekanismtools:obsidianpickaxe>,
+    <mekanismtools:lapislazulipickaxe>,
+    <mekanismtools:steelpickaxe>,
+    <nuclearcraft:pickaxe_boron>,
+    <nuclearcraft:pickaxe_tough>,
+    <nuclearcraft:pickaxe_hard_carbon>,
+    <nuclearcraft:pickaxe_boron_nitride>,
+    <thermalfoundation:tool.pickaxe_copper>,
+    <thermalfoundation:tool.pickaxe_tin>,
+    <thermalfoundation:tool.pickaxe_silver>,
+    <thermalfoundation:tool.pickaxe_lead>,
+    <thermalfoundation:tool.pickaxe_aluminum>,
+    <thermalfoundation:tool.pickaxe_nickel>,
+    <thermalfoundation:tool.pickaxe_platinum>,
+    <thermalfoundation:tool.pickaxe_steel>,
+    <thermalfoundation:tool.pickaxe_electrum>,
+    <thermalfoundation:tool.pickaxe_invar>,
+    <thermalfoundation:tool.pickaxe_bronze>,
+    <thermalfoundation:tool.pickaxe_constantan>,
+
+    # --AXES--
+    <appliedenergistics2:certus_quartz_axe>,
+    <appliedenergistics2:nether_quartz_axe>,
+    <immersiveengineering:axe_steel>,
+    <mekanismtools:glowstoneaxe>,
+    <mekanismtools:bronzeaxe>,
+    <mekanismtools:osmiumaxe>,
+    <mekanismtools:obsidianaxe>,
+    <mekanismtools:lapislazuliaxe>,
+    <mekanismtools:steelaxe>,
+    <nuclearcraft:axe_boron>,
+    <nuclearcraft:axe_tough>,
+    <nuclearcraft:axe_hard_carbon>,
+    <nuclearcraft:axe_boron_nitride>,
+    <thermalfoundation:tool.axe_copper>,
+    <thermalfoundation:tool.axe_tin>,
+    <thermalfoundation:tool.axe_silver>,
+    <thermalfoundation:tool.axe_lead>,
+    <thermalfoundation:tool.axe_aluminum>,
+    <thermalfoundation:tool.axe_nickel>,
+    <thermalfoundation:tool.axe_platinum>,
+    <thermalfoundation:tool.axe_steel>,
+    <thermalfoundation:tool.axe_electrum>,
+    <thermalfoundation:tool.axe_invar>,
+    <thermalfoundation:tool.axe_bronze>,
+    <thermalfoundation:tool.axe_constantan>,
+
+    # --SHOVELS--
+    <appliedenergistics2:certus_quartz_spade>,
+    <appliedenergistics2:nether_quartz_spade>,
+    <immersiveengineering:shovel_steel>,
+    <mekanismtools:glowstoneshovel>,
+    <mekanismtools:bronzeshovel>,
+    <mekanismtools:osmiumshovel>,
+    <mekanismtools:obsidianshovel>,
+    <mekanismtools:lapislazulishovel>,
+    <mekanismtools:steelshovel>,
+    <nuclearcraft:shovel_boron>,
+    <nuclearcraft:shovel_tough>,
+    <nuclearcraft:shovel_hard_carbon>,
+    <nuclearcraft:shovel_boron_nitride>,
+    <thermalfoundation:tool.shovel_copper>,
+    <thermalfoundation:tool.shovel_tin>,
+    <thermalfoundation:tool.shovel_silver>,
+    <thermalfoundation:tool.shovel_lead>,
+    <thermalfoundation:tool.shovel_aluminum>,
+    <thermalfoundation:tool.shovel_nickel>,
+    <thermalfoundation:tool.shovel_platinum>,
+    <thermalfoundation:tool.shovel_steel>,
+    <thermalfoundation:tool.shovel_electrum>,
+    <thermalfoundation:tool.shovel_invar>,
+    <thermalfoundation:tool.shovel_bronze>,
+    <thermalfoundation:tool.shovel_constantan>,
+
+    # --HOES--
+    <appliedenergistics2:certus_quartz_hoe>,
+    <appliedenergistics2:nether_quartz_hoe>,
+    <immersiveengineering:hoe_steel>,
+    <mekanismtools:glowstonehoe>,
+    <mekanismtools:bronzehoe>,
+    <mekanismtools:osmiumhoe>,
+    <mekanismtools:obsidianhoe>,
+    <mekanismtools:lapislazulihoe>,
+    <mekanismtools:steelhoe>,
+    <nuclearcraft:hoe_boron>,
+    <nuclearcraft:hoe_tough>,
+    <nuclearcraft:hoe_hard_carbon>,
+    <nuclearcraft:hoe_boron_nitride>,
+    <thermalfoundation:tool.hoe_copper>,
+    <thermalfoundation:tool.hoe_tin>,
+    <thermalfoundation:tool.hoe_silver>,
+    <thermalfoundation:tool.hoe_lead>,
+    <thermalfoundation:tool.hoe_aluminum>,
+    <thermalfoundation:tool.hoe_nickel>,
+    <thermalfoundation:tool.hoe_platinum>,
+    <thermalfoundation:tool.hoe_steel>,
+    <thermalfoundation:tool.hoe_electrum>,
+    <thermalfoundation:tool.hoe_invar>,
+    <thermalfoundation:tool.hoe_bronze>,
+    <thermalfoundation:tool.hoe_constantan>,
+
+    # --SWORDS--
+    <appliedenergistics2:certus_quartz_sword>,
+    <appliedenergistics2:nether_quartz_sword>,
+    <immersiveengineering:sword_steel>,
+    <mekanismtools:glowstonesword>,
+    <mekanismtools:bronzesword>,
+    <mekanismtools:osmiumsword>,
+    <mekanismtools:obsidiansword>,
+    <mekanismtools:lapislazulisword>,
+    <mekanismtools:steelsword>,
+    <nuclearcraft:sword_boron>,
+    <nuclearcraft:sword_tough>,
+    <nuclearcraft:sword_hard_carbon>,
+    <nuclearcraft:sword_boron_nitride>,
+    <thermalfoundation:tool.sword_copper>,
+    <thermalfoundation:tool.sword_tin>,
+    <thermalfoundation:tool.sword_silver>,
+    <thermalfoundation:tool.sword_lead>,
+    <thermalfoundation:tool.sword_aluminum>,
+    <thermalfoundation:tool.sword_nickel>,
+    <thermalfoundation:tool.sword_platinum>,
+    <thermalfoundation:tool.sword_steel>,
+    <thermalfoundation:tool.sword_electrum>,
+    <thermalfoundation:tool.sword_invar>,
+    <thermalfoundation:tool.sword_bronze>,
+    <thermalfoundation:tool.sword_constantan>,
+
+    # --HAMMERS--
+    <thermalfoundation:tool.hammer_copper>,
+    <thermalfoundation:tool.hammer_tin>,
+    <thermalfoundation:tool.hammer_silver>,
+    <thermalfoundation:tool.hammer_lead>,
+    <thermalfoundation:tool.hammer_aluminum>,
+    <thermalfoundation:tool.hammer_nickel>,
+    <thermalfoundation:tool.hammer_platinum>,
+    <thermalfoundation:tool.hammer_steel>,
+    <thermalfoundation:tool.hammer_electrum>,
+    <thermalfoundation:tool.hammer_invar>,
+    <thermalfoundation:tool.hammer_bronze>,
+    <thermalfoundation:tool.hammer_constantan>,
+    <thermalfoundation:tool.hammer_iron>,
+    <thermalfoundation:tool.hammer_diamond>,
+    <thermalfoundation:tool.hammer_gold>,
+
+    # --EXCAVATORS--
+    <thermalfoundation:tool.excavator_copper>,
+    <thermalfoundation:tool.excavator_tin>,
+    <thermalfoundation:tool.excavator_silver>,
+    <thermalfoundation:tool.excavator_lead>,
+    <thermalfoundation:tool.excavator_aluminum>,
+    <thermalfoundation:tool.excavator_nickel>,
+    <thermalfoundation:tool.excavator_platinum>,
+    <thermalfoundation:tool.excavator_steel>,
+    <thermalfoundation:tool.excavator_electrum>,
+    <thermalfoundation:tool.excavator_invar>,
+    <thermalfoundation:tool.excavator_bronze>,
+    <thermalfoundation:tool.excavator_constantan>,
+    <thermalfoundation:tool.excavator_iron>,
+    <thermalfoundation:tool.excavator_diamond>,
+    <thermalfoundation:tool.excavator_gold>,
+
+    # --OTHER--
+] as IItemStack[];
+
+val nerfed = [
+
+    # --PICKAXES--
+    <minecraft:wooden_pickaxe>,
+    <minecraft:stone_pickaxe>,
+    <minecraft:iron_pickaxe>,
+    <minecraft:golden_pickaxe>,
+    <minecraft:diamond_pickaxe>,
+
+    # --AXES--
+    <minecraft:wooden_axe>,
+    <minecraft:stone_axe>,
+    <minecraft:iron_axe>,
+    <minecraft:golden_axe>,
+    <minecraft:diamond_axe>,
+
+    # --SHOVELS--
+    <minecraft:wooden_shovel>,
+    <minecraft:stone_shovel>,
+    <minecraft:iron_shovel>,
+    <minecraft:golden_shovel>,
+    <minecraft:diamond_shovel>,
+
+    # --HOES--
+    <minecraft:wooden_hoe>,
+    <minecraft:stone_hoe>,
+    <minecraft:iron_hoe>,
+    <minecraft:golden_hoe>,
+    <minecraft:diamond_hoe>,
+
+    # --SWORDS--
+    <minecraft:wooden_sword>,
+    <minecraft:stone_sword>,
+    <minecraft:iron_sword>,
+    <minecraft:golden_sword>,
+    <minecraft:diamond_sword>,
+
+] as IItemStack[];
+		
+for tool in removed {
+	removeAndHide(tool);
+}
+
+for tool in nerfed {
+	tool.maxDamage = 1;
+}
