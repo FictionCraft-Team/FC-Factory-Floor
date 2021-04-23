@@ -5,6 +5,6 @@ var refinery = IMachineRegistry.getMachine("crafttweaker:refinery");
 refinery.addRecipe(
 	{iteminput_refinery:<registryName>},
 	{itemoutput_refinery:<registryName>},
-	1024,
-	120
+	1024, //power per tick
+	120 //process speed
 );
