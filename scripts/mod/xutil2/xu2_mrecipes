@@ -1,0 +1,11 @@
+import extrautilities2.Tweaker.IMachineRegistry;
+
+//Purifing Aquamarine
+var refinery = IMachineRegistry.getMachine("crafttweaker:refinery");
+
+refinery.addRecipe(
+	{iteminput_refinery:<registryName>},
+	{itemoutput_refinery:<registryName>},
+	1024,
+	120
+);
