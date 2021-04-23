@@ -1,0 +1,16 @@
+#loader preinit
+
+import extrautilities2.Tweaker.IMachineRegistry;
+import extrautilities2.Tweaker.IMachine;
+import extrautilities2.Tweaker.IMachineSlot;
+
+//refinery
+IMachineRegistry.createNewMachine(
+	"refinery",
+	8192,
+	8192,
+	[IMachineSlot.newItemStackSlot("iteminput_refinery")],
+	[IMachineSlot.newItemStackSlot("itemoutput_refinery")],
+	"fictioncraft:blocks/refinery_off",
+	"fictioncraft:blocks/refinery_on"
+);
